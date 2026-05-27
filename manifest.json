@@ -1,0 +1,11 @@
+{
+  "id": "SlashFlow",
+  "name": "SlashFlow",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "SlashFlow is a plugin for obisdian that allow to create custom shortcut using slash command.",
+  "author": "himanshu-17lodhi",
+  "authorUrl": "https://github.com/himanshu-17lodhi",
+  "isDesktopOnly": false
+}
+  

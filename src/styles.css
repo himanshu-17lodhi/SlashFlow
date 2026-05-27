@@ -1,0 +1,53 @@
+.slashflow-suggestion-item {
+	display: flex;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 12px;
+	cursor: pointer;
+}
+
+.slashflow-suggestion-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	background-color: var(--background-secondary-alt);
+	border-radius: 4px;
+	font-size: 14px;
+	color: var(--text-accent);
+}
+
+.slashflow-suggestion-content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.slashflow-suggestion-title {
+	font-size: 0.9em;
+	font-weight: 500;
+	color: var(--text-normal);
+}
+
+.slashflow-suggestion-category {
+	font-size: 0.75em;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+/* Hover/Focus states are handled by Obsidian's .suggestion-item.is-selected */
+.suggestion-item.is-selected .slashflow-suggestion-icon {
+	background-color: var(--text-accent);
+	color: var(--text-on-accent);
+}
+
+.suggestion-item.is-selected .slashflow-suggestion-title {
+	color: var(--text-on-accent);
+}
+
+.suggestion-item.is-selected .slashflow-suggestion-category {
+	color: var(--text-on-accent);
+	opacity: 0.8;
+}
